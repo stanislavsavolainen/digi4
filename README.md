@@ -1,2 +1,2 @@
 # digi4
-guess number (nodeJS + express with session)
+guess number (nodeJS + express with session + ESLint)
