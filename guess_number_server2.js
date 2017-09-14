@@ -68,16 +68,6 @@ var cors = function (req, res, next) {
 //express use CORS
 application.use(cors);
 
-//new number
-application.get('/new', function (req, res) {
-    req.session.number = generateNewRandomNumber();
-
-    console.log(" ===> new");
-
-    res.send("New number generated");
-});
-
-
 //guess number
 application.get('/guess', function (req, res) {
 

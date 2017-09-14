@@ -57,12 +57,3 @@ function client_get_number() {
 
 }
 
-
-//generator endpoint not used
-function generator() {
-
-    var host = "http://127.0.0.1:5658";
-    var link = "/new";
-    fetch(host + link, { method: 'get', credentials: "same-origin", headers: { "Content-Type": "application/x-www-form-urlencoded" } });
-
-}
